@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма для зв'язку з автором сайту</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Форма для зв'язку з автором сайту</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">Головна</a>
+          </li>
+          <li>
+            <a href="articles.html">Огляди</a>
+          </li>
+          <li>
+            <a href="gallery.html">Деякі фото</a>
+          </li>
+          <li>
+            <a href="boats_list.html">Список човнів на сайті (якорі)</a>
+          </li>
+          <li>
+            <a href="about.html">Про сайт</a>
+          </li>
+          <li>
+            <a href="contact.html">Написати автору</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <form action="submit_form.html" method="post">
+          <label for="name">Ваше ім'я:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+          <label for="tel">Вкажіт ваш номер мобільного:</label>
+          <input type="tel" id="tel" name="tel" required /><br /><br />
+          <label for="question">Вкажіть питання чи опишіть проблему:</label
+          ><br />
+          <textarea id="question" name="question" required></textarea><br />
+          <button type="submit" name="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>Made By Oleksandr Bielik in 2024</p>
+    </footer>
+  </body>
+</html>
